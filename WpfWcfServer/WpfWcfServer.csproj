@@ -125,9 +125,9 @@
       <Project>{77d423c3-8419-4b9d-acf6-0e349d75b2ed}</Project>
       <Name>ExtendPropertyLib</Name>
     </ProjectReference>
-    <ProjectReference Include="..\WcfServiceFileSystemWatcher\WcfServiceFileSystemWatcher.csproj">
-      <Project>{9a4773f5-1a1c-41e1-a3ea-e4eedfd8e515}</Project>
-      <Name>WcfServiceFileSystemWatcher</Name>
+    <ProjectReference Include="..\WcfDirectoryServices\WcfDirectoryServices.csproj">
+      <Project>{3002e167-aa99-4f5c-a4e6-2ca571daf999}</Project>
+      <Name>WcfDirectoryServices</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

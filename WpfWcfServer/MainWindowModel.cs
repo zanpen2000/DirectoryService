@@ -187,7 +187,7 @@ namespace WpfWcfServer
                             dispatcherTimer.Start();
                             timerList.ForEach(t => t.Start());
 
-                            Host = new MyServiceHost(typeof(WcfServiceFileSystemWatcher.Watcher));
+                            Host = new MyServiceHost(typeof(WcfDirectoryServices.Watcher));
                             Host.Opened += host_Opened;
                             Host.Closed += host_Closed;
                             Host.Faulted += Host_Faulted;

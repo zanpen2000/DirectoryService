@@ -45,7 +45,7 @@ namespace WpfWcfServer.Models
                     this.OnScanningBeginning.BeginInvoke(this, string.Format("开始扫描目录{0}", dir), null, null);
                 }
 
-                return WcfServiceFileSystemWatcher.Models.ScannerHelper.ScanDirectory(dir);
+                return WcfDirectoryServices.Models.ScannerHelper.ScanDirectory(dir);
 
             }).ContinueWith(async (json) =>
             {
